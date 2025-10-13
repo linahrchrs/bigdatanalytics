@@ -1,0 +1,31 @@
+# Python-specific ignores
+__pycache__         # Compiled Python bytecode
+*.pyc               # Compiled Python bytecode files
+*.pyo               # Optimized Python bytecode files
+*.pyd               # Python dynamic library (Windows)
+.ipynb_checkpoints/ # Jupyter notebook checkpoints
+
+# Virtual environment
+venv/               # Your virtual environment directory (e.g., gemini_env)
+env/                # Common alternative name for virtual environment
+
+# IDE-specific files (Cursor, VS Code, etc.)
+.cursor/            # Cursor AI-specific directory (often contains sensitive info or internal files)
+.cursorignore       # Your Cursor AI ignore file (you usually don't want to commit this itself)
+.vscode/            # VS Code settings and workspace files (often contains user-specific config)
+.idea/              # IntelliJ/PyCharm project files
+
+# Operating System generated files
+.DS_Store           # macOS directory service file
+Thumbs.db           # Windows thumbnail cache
+
+# Sensitive files / Local Configuration (CRUCIAL for your API key)
+/.env
+.env                # Environment variable file (where you store GOOGLE_API_KEY)
+*.log               # Log files
+*.sqlite3           # SQLite database files (if you're using one)
+pygeminter/.env
+
+.idea/
+
+__pycache__
